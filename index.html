@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Reminder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #0078D7;
+        }
+        h2 {
+            text-align: center;
+            color: #0078D7;
+        }
+        p {
+            text-align: center;
+        }
+        .payment-option {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .qr-code {
+            display: block;
+            margin: 10px auto;
+            width: 150px;
+            height: 150px;
+            background-color: #ddd;
+            border-radius: 8px;
+        }
+        .instructions {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Payment Reminder</h1>
+        <p>Please settle your payment for the MikroTik hEX RB750Gr3.</p>
+        <div class="payment-option">
+            <h2>GCash</h2>
+            <div class="qr-code">
+                <!-- Replace with GCash QR Code -->
+                <img src="GCashQR.jpg" alt="GCash QR Code" width="150" height="150">
+            </div>
+            <p class="instructions">Scan the QR code above using your GCash app to pay.</p>
+        </div>
+        <div class="payment-option">
+            <h2>Maya</h2>
+            <div class="qr-code">
+                <!-- Replace with Maya QR Code -->
+                <img src="MayaQR.jpg" alt="Maya QR Code" width="150" height="150">
+            </div>
+            <p class="instructions">Scan the QR code above using your Maya app to pay.</p>
+        </div>
+    </div>
+    <footer>
+        For inquiries, contact support at <a href="mailto:support@example.com">support@example.com</a>.
+    </footer>
+</body>
+</html>
